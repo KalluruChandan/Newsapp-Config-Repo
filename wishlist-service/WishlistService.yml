@@ -1,0 +1,8 @@
+# server port configuration
+server:
+  port: 8104
+
+# #spring app configuration
+# spring:
+#   application:
+#     name: WishlistService

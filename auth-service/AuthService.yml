@@ -1,0 +1,18 @@
+# server port configuration
+server:
+  port: 8100
+
+# #spring app configuration
+# spring:
+#   application:
+#     name: AuthService
+
+  #mysql database configuration
+  datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/authdb?createDatabaseIfNotExist=true
+      username: root
+      password: root
+
+
+
