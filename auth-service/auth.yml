@@ -14,5 +14,10 @@ spring:
       username: root
       password: root
 
+#auth app properties
+auth:
+  welcome:
+    message: Hello, This is Auth Server
+
 
 

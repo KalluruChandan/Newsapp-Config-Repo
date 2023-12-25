@@ -2,7 +2,8 @@
 server:
   port: 8103
 
-# #spring app configuration
-# spring:
-#   application:
-#     name: NewsProvider
+#news-provider app properties
+news-provider:
+  welcome:
+    message: Hello, This is News Provider Server
+

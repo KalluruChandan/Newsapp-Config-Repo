@@ -4,12 +4,14 @@ server:
 
 #spring app configuration
 spring:
-#   application:
-#     name: UserProfile
-
   #mysql database configuration
   datasource:
       driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://localhost:3306/authdb?createDatabaseIfNotExist=true
       username: root
       password: root
+
+#user-profile app properties
+user-profile:
+  welcome:
+    message: Hello, This is User Profile Server

@@ -6,3 +6,9 @@ server:
 # spring:
 #   application:
 #     name: WishlistService
+
+
+#wishlist app properties
+wishlist:
+  welcome:
+    message: Hello, This is Wishlist Server
