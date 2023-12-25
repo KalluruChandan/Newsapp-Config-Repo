@@ -2,8 +2,8 @@
 server:
   port: 8102
 
-# #spring app configuration
-# spring:
+#spring app configuration
+spring:
 #   application:
 #     name: UserProfile
 
