@@ -17,8 +17,13 @@ springdoc:
   # /api-docs endpoint custom path
   api-docs:
     path: /docs
+  #In order to display spring-boot-actuator endpoints, simply add the following property:
+  show-actuator: true
     
 #logging    
 logging:
   level:
     web: DEBUG
+
+
+
