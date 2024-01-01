@@ -11,13 +11,12 @@ spring:
       username: root
       password: root
   jpa:
+    defer-datasource-initialization: true
+    show-sql: true
     hibernate:
       ddl-auto: create-drop
-    show-sql: true
-    properties:
-      hibernate:
-        format_sql: true
-        dialect: org.hibernate.dialect.MySQL5Dialect
+      properties: 
+        dialect: org.hibernate.dialect.MySQL8Dialect
 
 #user-profile app properties
 user-profile:
