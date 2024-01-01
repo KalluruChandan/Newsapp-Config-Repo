@@ -2,10 +2,14 @@
 server:
   port: 8104
 
-# #spring app configuration
-# spring:
-#   application:
-#     name: WishlistService
+#spring app configuration
+spring:
+
+  #mongodb configuration
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: newsappproject
 
 
 #wishlist app properties
