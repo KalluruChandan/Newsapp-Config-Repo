@@ -12,3 +12,12 @@ server:
 wishlist:
   welcome:
     message: Hello, This is Wishlist Server
+
+#endpoints
+wishlist:
+  endpoint:
+    common: /app/v1/wishlist
+    welcome: /welcome
+    add-to-wishlist: /add
+    remove-from-wishlist: /remove
+    get-wishlist: /get
