@@ -4,8 +4,6 @@ server:
 
 #spring app configuration
 spring:
-#   application:
-#     name: AuthService
 
   #mysql database configuration
   datasource:
@@ -18,6 +16,10 @@ spring:
 auth:
   welcome:
     message: Hello, This is Auth Server
+  endpoint:
+    common: /app/v1/auth
+    welcome: /welcome
+    login: /login
 
 
 
