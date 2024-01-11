@@ -21,4 +21,4 @@ spring:
 #user-profile app properties
 user-profile:
   welcome:
-    message: Hello, This is User Profile Server
+    message: Hello, Message from User Profile Server
