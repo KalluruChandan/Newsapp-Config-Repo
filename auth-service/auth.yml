@@ -17,7 +17,7 @@ auth:
   welcome:
     message: Hello, This is Auth Server
   endpoint:
-    common: /app/v1/auth
+    common: /newsapp/v1/auth
     welcome: /welcome
     login: /login
 
