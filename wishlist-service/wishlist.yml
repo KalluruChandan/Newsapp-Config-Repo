@@ -18,7 +18,7 @@ wishlist:
     message: Hello, This is Wishlist Server
   #endpoints
   endpoint:
-    common: /app/v1/wishlist
+    common: /newsapp/v1/wishlist
     welcome: /welcome
     add-to-wishlist: /add
     remove-from-wishlist: /remove
