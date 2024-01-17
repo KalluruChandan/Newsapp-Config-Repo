@@ -25,3 +25,8 @@ spring:
 user-profile:
   welcome:
     message: Hello, Message from User Profile Server
+  #endpoints
+  endpoint:
+    common: /newsapp/v1/user-profile
+    welcome: /welcome
+    register: /register
