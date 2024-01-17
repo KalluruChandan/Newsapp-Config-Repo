@@ -24,6 +24,9 @@ spring:
 
 #auth app properties
 auth:
+  kafka:
+    topic: user-registration-topic
+    group-id: user-registration
   welcome:
     message: Hello, This is Auth Server
   endpoint:
