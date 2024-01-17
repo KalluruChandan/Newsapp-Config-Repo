@@ -6,4 +6,8 @@ server:
 news-provider:
   welcome:
     message: Hello, This is News Provider Server
+  endpoint:
+    common: /newsapp/v1/news-provider
+    welcome: /welcome
+    find-articles: /find/articles
 
